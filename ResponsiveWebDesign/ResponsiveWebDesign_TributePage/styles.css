@@ -22,7 +22,7 @@
   }
   
   #img-div {
-    background: steelblue;
+    background: #f7f4f7;
     padding: 10px;
     margin: 0;
   }
@@ -30,7 +30,7 @@
   #img-caption {
     margin: 15px 0 5px 0;
     display: block;
-    color: white;
+    color: black;
     text-align: center;
   }
   
