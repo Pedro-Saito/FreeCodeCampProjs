@@ -1,12 +1,10 @@
-** start of undefined **
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portifolio Webpage</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="CSS/styles.css">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
@@ -46,7 +44,7 @@
   <!-- START PROJECTS -->
 
     <section id="projects" class="projects-sec">
-      <h2 class="projects-header">Projects From <a href="www.freecodecamp.com">FreeCodeCamp</a></h2>
+      <h2 class="projects-header">Projects From <a href="https://www.freecodecamp.com" target="_blank">FreeCodeCamp</a></h2>
 
       <div class="projects-grid">
         <a 
@@ -56,6 +54,7 @@
           <img 
             src="ResponsiveWebDesign_ProductLandingPage/LandingPage.png" 
             alt="'Product Landing Page' Project Image"
+            width="100%"
             class="project-img">
           <p class="project project-title">Product Landing Page</p>
         </a>
@@ -67,6 +66,7 @@
           <img 
             src="ResponsiveWebDesign_TechnicalDocumentationPage/DocumentationPage.png" 
             alt="'Technical Documentation Page' Project Image"
+            width="100%"
             class="project-img">
           <p class="project project-title">Technical Documentation Page</p>
         </a>
@@ -78,6 +78,7 @@
           <img 
             src="ResponsiveWebDesign_TributePage/TributePage.png" 
             alt="'Tribute Page' Project Image"
+            width="100%"
             class="project-img">
           <p class="project project-title">Tribute Page</p>
         </a>
@@ -89,6 +90,7 @@
           <img 
             src="ResponsiveWebDesign_SurveyForm/SurveyForm.png" 
             alt="'Survey Form' Project Image"
+            width="100%"
             class="project-img">
           <p class="project project-title">Survey Form</p>
         </a>
@@ -113,7 +115,7 @@
 
         <a 
           id="profile-link" 
-          href="www.github.com/pedro-saito" 
+          href="https://www.github.com/pedro-saito" 
           target="_blank"
           class="contact-detail"><i class="fa-github"></i>GitHub
         </a>
@@ -124,141 +126,3 @@
 
 </body>
 </html>
-
-** end of undefined **
-
-** start of undefined **
-
-@media (max-width: 600px) {}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-/* START NAV */
-
-.nav {
-  position: fixed;
-  display: flex;
-  justify-content: flex-begin;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: lightgray;
-  opacity: 0.5;
-}
-
-.nav-list {
-  display: flex;
-  margin-right: 20px;
-}
-
-.nav-list a {
-  display: block;
-  padding: 10px 20px;
-  border: 2px solid black;
-  transition: padding 0.3s ease-out;
-}
-
-.nav-list a:hover {
-  padding: 11px 21px;
-}
-
-/* END NAV */
-
-/* START WELCOME */
-
-.welcome {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.welcome > p {
-  font-size: 20px;
-  font-weight: bold;
-  margin-top: -20px;
-}
-
-/* END WELCOME */
-
-/* START PROJECTS */
-
-.projects-sec {
-  text-align: center;
-}
-
-.projects-header {
-  margin-bottom: 50px;
-}
-
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(305px, 1fr));
-  grid-gap: 20px;
-  width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
-  margin-bottom: 60px;
-}
-
-.project {
-  background-color: gray;
-  padding: 5px;
-  border-radius: 5px;
-}
-
-.project {
-  transition: background-color 0.5s ease-out;
-}
-
-.project:hover .project {
-  background-color: lightgray;
-}
-
-.project-title {
-  font-size: 20px;
-}
-
-/* END PROJECTS */
-
-/* START CONTACT */
-
-.contact {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.contact > p {
-  font-size: 20px;
-  font-weight: bold;
-  margin-top: -20px;
-}
-
-.contact-detail {
-  background-color: gray;
-  font-size: 18px;
-  border: 2px solid black;
-  transition: background-color 0.5s ease-out;
-}
-
-.contact-detail:hover {
-  background-color: lightgray;
-}
-
-/* END CONTACT */
-
-** end of undefined **
-
